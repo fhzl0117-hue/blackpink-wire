@@ -1,0 +1,15 @@
+{
+  "name": "Blackpink Wire",
+  "description": "An unofficial English-language wire for global BLINK — group news and reviews, plus a dedicated solo desk for each of the four members.",
+  "tag": "BLACKPINK / BLINK",
+  "accent": "#D6006F",
+  "accentTint": "#FBD9EA",
+  "url": "https://fhzl0117-hue.github.io/blackpink-wire/",
+  "eyebrow": "Est. 2026",
+  "members": [
+    { "name": "Jennie", "url": "https://fhzl0117-hue.github.io/blackpink-wire/jennie.html" },
+    { "name": "Jisoo", "url": "https://fhzl0117-hue.github.io/blackpink-wire/jisoo.html" },
+    { "name": "Rosé", "url": "https://fhzl0117-hue.github.io/blackpink-wire/rose.html" },
+    { "name": "Lisa", "url": "https://fhzl0117-hue.github.io/blackpink-wire/lisa.html" }
+  ]
+}
