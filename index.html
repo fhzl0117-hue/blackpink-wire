@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="vPrPs6OsWEmsXfUWhN3NlBiR2PA809FQtUKL9N-EtT8" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blackpink Wire</title>
@@ -129,6 +128,14 @@
   .desk-card svg{width:26px; height:26px; stroke:var(--pink); fill:none; stroke-width:1.6;}
   .desk-card h3{font-size:1.05rem; font-weight:600;}
   .desk-card p{font-size:0.86rem; color:var(--ink-dim);}
+
+  /* ---------- Member desks ---------- */
+  .member-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:1.4rem;}
+  .member-card{background:var(--paper-raised); border:1px solid var(--line); border-radius:6px; padding:1.4rem; text-decoration:none; color:var(--ink); display:flex; flex-direction:column; gap:0.6rem; box-shadow:var(--shadow); transition:transform .15s ease;}
+  .member-card:hover{transform:translateY(-2px);}
+  .member-card__tag{display:inline-block; align-self:flex-start; font-family:'IBM Plex Mono', monospace; font-size:0.6rem; letter-spacing:0.06em; text-transform:uppercase; font-weight:600; padding:0.2rem 0.5rem; border-radius:3px;}
+  .member-card h3{font-size:1.15rem;}
+  .member-card p{font-size:0.86rem; color:var(--ink-dim);}
 
   /* ---------- News desk ---------- */
   .dispatch-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:1.5rem;}
@@ -276,6 +283,40 @@
           <h3>Market Desk</h3>
           <p>Where to buy official merch and tickets abroad, without the guesswork.</p>
         </a>
+      </div>
+    </section>
+
+    <section class="desk-section desk-section--alt" id="members">
+      <div class="wrap">
+        <div class="desk-head">
+          <div>
+            <p class="section-label">Member Desks</p>
+            <h2>Four solo careers, four dedicated pages.</h2>
+          </div>
+          <p class="desk-note">Each member now has her own desk — news, reviews, official videos, and a release countdown, all in one place.</p>
+        </div>
+        <div class="member-grid">
+          <a class="member-card" href="jennie.html">
+            <span class="member-card__tag" style="background:#F6ECD2; color:#B8860B;">Fallen Angel Era</span>
+            <h3>Jennie</h3>
+            <p>Ruby, Odd Atelier, and the August 28 Fallen Angel EP.</p>
+          </a>
+          <a class="member-card" href="jisoo.html">
+            <span class="member-card__tag" style="background:#F8DEE6; color:#C23B5B;">Click Era</span>
+            <h3>Jisoo</h3>
+            <p>Flower, Amortage, and the September 4 "CLICK" single.</p>
+          </a>
+          <a class="member-card" href="rose.html">
+            <span class="member-card__tag" style="background:#F2DEE1; color:#8E3B46;">Between Eras</span>
+            <h3>Rosé</h3>
+            <p>rosie, "APT.," and a historic 2026 Grammy performance.</p>
+          </a>
+          <a class="member-card" href="lisa.html">
+            <span class="member-card__tag" style="background:#FBE3D2; color:#D9601F;">Press Play Era</span>
+            <h3>Lisa</h3>
+            <p>Alter Ego, SaWaDiKa, Press Play, and VIVA LA LISA in Vegas.</p>
+          </a>
+        </div>
       </div>
     </section>
 

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lisa — Blackpink Wire</title>
+<meta name="google-site-verification" content="vPrPs6OsWEmsXfUWhN3NlBiR2PA809FQtUKL9N-EtT8" />
+<meta name="description" content="Lisa's solo desk on Blackpink Wire — Alter Ego, SaWaDiKa, Press Play, and the VIVA LA LISA residency, translated and tracked for global BLINK.">
+<meta property="og:title" content="Lisa — Blackpink Wire">
+<meta property="og:description" content="Lisa's solo desk: news, reviews, official videos, and a release countdown for the Press Play era.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%A1%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --paper:#FAF5F8; --paper-raised:#FFFFFF; --ink:#1A1418; --ink-dim:#5C4F58; --ink-faint:#8C7C87;
+    --line:#EAD6E4; --pink:#D6006F; --pink-deep:#9E0052; --pink-tint:#FBD9EA;
+    --noir:#1A1418; --noir-deep:#000000; --noir-tint:#E9E4E6; --live:#2F7A4C;
+    --member:#D9601F; --member-tint:#FBE3D2;
+    --shadow: 0 1px 2px rgba(26,20,24,0.06), 0 10px 28px rgba(26,20,24,0.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#160F14; --paper-raised:#221A20; --ink:#F6E9F1; --ink-dim:#CBAFC0; --ink-faint:#8C7484;
+      --line:#3B2C34; --pink:#FF57AD; --pink-deep:#FF8AC6; --pink-tint:#3B1C2C;
+      --noir:#EFE7EB; --noir-deep:#FFFFFF; --noir-tint:#2A2126; --live:#66CD8C;
+      --member:#F5924D; --member-tint:#3A2A1A;
+      --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 14px 34px rgba(0,0,0,0.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#160F14; --paper-raised:#221A20; --ink:#F6E9F1; --ink-dim:#CBAFC0; --ink-faint:#8C7484;
+    --line:#3B2C34; --pink:#FF57AD; --pink-deep:#FF8AC6; --pink-tint:#3B1C2C;
+    --noir:#EFE7EB; --noir-deep:#FFFFFF; --noir-tint:#2A2126; --live:#66CD8C;
+    --member:#F5924D; --member-tint:#3A2A1A;
+    --shadow: 0 1px 2px rgba(0,0,0,0.4), 0 14px 34px rgba(0,0,0,0.5);
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif; line-height:1.55; -webkit-font-smoothing:antialiased; overflow-x:hidden;}
+  a{color:inherit;}
+  h1,h2,h3{font-family:'Fraunces', Georgia, 'Times New Roman', serif; font-weight:600; text-wrap:balance; margin:0;}
+  p{margin:0;}
+  .mono{font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-variant-numeric:tabular-nums;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 clamp(1.25rem, 4vw, 2.5rem);}
+  a:focus-visible, button:focus-visible{outline:2px solid var(--pink); outline-offset:3px; border-radius:4px;}
+
+  .masthead{position:sticky; top:0; z-index:20; background:var(--paper); border-bottom:1px solid var(--line);}
+  .masthead__top{max-width:1080px; margin:0 auto; padding:0.9rem clamp(1.25rem, 4vw, 2.5rem) 0.7rem; display:flex; align-items:baseline; justify-content:space-between; gap:1rem; flex-wrap:wrap;}
+  .wordmark{font-family:'Fraunces', serif; font-weight:700; font-size:1.35rem; text-decoration:none; letter-spacing:-0.01em;}
+  .wordmark small{font-family:'IBM Plex Mono', monospace; font-size:0.6rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--member); display:block; margin-top:0.1rem;}
+  .member-nav{display:flex; gap:1.1rem; flex-wrap:wrap; font-family:'IBM Plex Mono', monospace; font-size:0.72rem; letter-spacing:0.04em;}
+  .member-nav a{text-decoration:none; color:var(--ink-faint); padding-bottom:2px; border-bottom:2px solid transparent;}
+  .member-nav a:hover{color:var(--ink);}
+  .member-nav a.is-active{color:var(--member); border-color:var(--member); font-weight:600;}
+
+  .hero{padding:clamp(2.75rem,7vw,5.5rem) 0 clamp(2.5rem,6vw,4rem);}
+  .dateline{font-family:'IBM Plex Mono', monospace; font-size:0.75rem; letter-spacing:0.1em; color:var(--noir); font-weight:600;}
+  .hero h1{font-size:clamp(2.4rem, 6vw, 4.2rem); line-height:1.02; margin-top:0.6rem; letter-spacing:-0.02em;}
+  .hero__sub{max-width:60ch; margin-top:1.25rem; font-size:1.08rem; color:var(--ink-dim);}
+  .hero__meta{margin-top:1.4rem; font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--ink-faint); display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;}
+  .tag{display:inline-block; font-family:'IBM Plex Mono', monospace; font-size:0.62rem; letter-spacing:0.08em; text-transform:uppercase; padding:0.2rem 0.5rem; border-radius:3px; font-weight:600;}
+  .tag--sample{background:var(--noir-tint); color:var(--ink-dim);}
+  .tag--live{background:var(--member-tint); color:var(--member);}
+  .hero__actions{margin-top:2rem; display:flex; gap:0.9rem; flex-wrap:wrap;}
+  .btn{display:inline-flex; align-items:center; gap:0.4rem; padding:0.75rem 1.3rem; border-radius:3px; text-decoration:none; font-weight:600; font-size:0.92rem; border:1px solid transparent; transition:transform .15s ease, background .15s ease;}
+  .btn--primary{background:var(--member); color:#fff;}
+  .btn--primary:hover{transform:translateY(-1px); filter:brightness(0.92);}
+  .btn--ghost{border-color:var(--line); color:var(--ink);}
+  .btn--ghost:hover{border-color:var(--member); color:var(--member);}
+
+  .section-label{font-family:'IBM Plex Mono', monospace; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:0.9rem;}
+  .desk-section{padding:clamp(2.75rem,6vw,4.5rem) 0; border-top:1px solid var(--line);}
+  .desk-section--alt{background:var(--paper-raised);}
+  .desk-head{display:flex; justify-content:space-between; align-items:flex-end; gap:1.5rem; flex-wrap:wrap; margin-bottom:2rem;}
+  .desk-head h2{font-size:clamp(1.6rem,3.4vw,2.1rem);}
+  .desk-note{max-width:34ch; font-size:0.88rem; color:var(--ink-dim);}
+
+  .dispatch-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:1.5rem;}
+  .dispatch{background:var(--paper-raised); border:1px solid var(--line); border-radius:6px; padding:1.4rem; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:0.7rem;}
+  .dispatch__eyebrow{display:flex; justify-content:space-between; align-items:center; font-family:'IBM Plex Mono', monospace; font-size:0.66rem; color:var(--ink-faint); letter-spacing:0.05em;}
+  .dispatch h3{font-size:1.1rem; line-height:1.3;}
+  .dispatch p{font-size:0.9rem; color:var(--ink-dim);}
+  .dispatch__credit{font-size:0.76rem; color:var(--ink-faint); border-top:1px dashed var(--line); padding-top:0.7rem; margin-top:0.2rem;}
+  .dispatch__link{font-size:0.82rem; font-weight:600; color:var(--member); text-decoration:none;}
+  .dispatch__link:hover{text-decoration:underline;}
+
+  .review{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.4fr); gap:2.5rem; align-items:start;}
+  .review__stamp{border:1px solid var(--noir); color:var(--noir); font-family:'IBM Plex Mono', monospace; font-size:0.72rem; letter-spacing:0.1em; padding:0.85rem 1rem; border-radius:4px; text-align:center;}
+  .review__stamp .score{display:block; font-size:1.6rem; color:var(--ink); font-weight:600; margin-bottom:0.15rem;}
+  .review blockquote{font-family:'Fraunces', serif; font-style:italic; font-size:clamp(1.2rem,2.4vw,1.55rem); line-height:1.4; margin:0 0 1rem; color:var(--ink);}
+  .review__body p{color:var(--ink-dim); font-size:0.95rem; margin-bottom:0.9rem;}
+  .tracklist{list-style:none; margin:0 0 1rem; padding:0; font-family:'IBM Plex Mono', monospace; font-size:0.82rem; color:var(--ink-dim); display:grid; gap:0.35rem;}
+  .tracklist li{display:flex; gap:0.6rem;}
+  .tracklist span.n{color:var(--ink-faint); width:1.4rem; flex-shrink:0;}
+  .tracklist li.title-track{color:var(--member); font-weight:600;}
+  @media (max-width: 720px){ .review{grid-template-columns:1fr;} .review__stamp{width:fit-content;} }
+
+  .screen-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem;}
+  .screen-card{background:var(--paper-raised); border:1px solid var(--line); border-radius:6px; overflow:hidden; box-shadow:var(--shadow);}
+  .screen-card__frame{position:relative; aspect-ratio:16/9; background:#000;}
+  .screen-card__frame iframe{position:absolute; inset:0; width:100%; height:100%; border:0;}
+  .screen-card__body{padding:1.1rem 1.3rem;}
+  .screen-card__body h3{font-size:0.98rem; margin-bottom:0.35rem;}
+  .screen-card__body p{font-size:0.84rem; color:var(--ink-dim);}
+
+  .signal-list{display:flex; flex-direction:column; border:1px solid var(--line); border-radius:6px; overflow:hidden; background:var(--paper-raised);}
+  .signal-row{display:grid; grid-template-columns:1fr auto; gap:1rem; align-items:center; padding:1.1rem 1.4rem; border-top:1px solid var(--line);}
+  .signal-row:first-child{border-top:none;}
+  .signal-row__name{font-weight:600; font-size:0.98rem;}
+  .signal-row__meta{font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--ink-faint); margin-top:0.25rem;}
+  .signal-row__countdown{font-family:'IBM Plex Mono', monospace; font-size:0.95rem; font-weight:600; color:var(--member); text-align:right; white-space:nowrap;}
+  .signal-row__countdown small{display:block; font-size:0.62rem; font-weight:500; color:var(--ink-faint); text-transform:uppercase; letter-spacing:0.06em;}
+  .signal-footnote{margin-top:1rem; font-size:0.78rem; color:var(--ink-faint);}
+  @media (max-width:560px){ .signal-row{grid-template-columns:1fr;} .signal-row__countdown{text-align:left;} }
+
+  .market-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px,1fr)); gap:1.4rem;}
+  .market-card{background:var(--paper-raised); border:1px solid var(--line); border-radius:6px; padding:1.3rem; display:flex; flex-direction:column; gap:0.6rem; box-shadow:var(--shadow);}
+  .market-card h3{font-size:1.02rem;}
+  .market-card p{font-size:0.85rem; color:var(--ink-dim);}
+  .market-card a{font-size:0.85rem; font-weight:600; color:var(--member); text-decoration:none;}
+  .market-card a:hover{text-decoration:underline;}
+
+  .colophon{border-top:1px solid var(--line); background:var(--paper-raised); padding:clamp(2.5rem,5vw,3.5rem) 0 2.5rem;}
+  .colophon__grid{display:grid; grid-template-columns:1.1fr 1.4fr; gap:2.5rem;}
+  .colophon .wordmark{font-size:1.15rem;}
+  .colophon p{font-size:0.82rem; color:var(--ink-dim); margin-top:0.9rem; max-width:46ch;}
+  .colophon__fine{font-size:0.72rem; color:var(--ink-faint); margin-top:1.5rem; font-family:'IBM Plex Mono', monospace; line-height:1.6;}
+  @media (max-width:720px){ .colophon__grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header class="masthead" id="top">
+    <div class="masthead__top">
+      <a class="wordmark" href="index.html">Blackpink Wire<small>Member Desk</small></a>
+      <nav class="member-nav" aria-label="Member desks">
+        <a href="jennie.html">Jennie</a>
+        <a href="jisoo.html">Jisoo</a>
+        <a href="rose.html">Rosé</a>
+        <a href="lisa.html" class="is-active">Lisa</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <p class="dateline">SEOUL — AUGUST 2026</p>
+      <h1>SaWaDiKa,<br>then Press Play.</h1>
+      <p class="hero__sub">Lisa's solo run started with 2025's <em>Alter Ego</em>, her debut album stacked with features from Doja Cat, Rosalía, Future, Megan Thee Stallion, and Tyla, and global hits like "ROCKSTAR." In 2026 she returns to her roots: lead single "SaWaDiKa" (September 3) previews <em>Press Play</em>, an EP her label calls her "most personal" work yet, timed alongside her first Las Vegas concert residency, "VIVA LA LISA," this November.</p>
+      <p class="hero__meta">MEMBER DESK · FILED 09:00 KST · <span class="tag tag--live">Press Play Era · 2026</span></p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#news">Enter the desk ↓</a>
+        <a class="btn btn--ghost" href="index.html">← Back to Blackpink Wire</a>
+      </div>
+    </section>
+
+    <section class="desk-section" id="news">
+      <div class="wrap">
+        <div class="desk-head">
+          <div>
+            <p class="section-label">News</p>
+            <h2>What's actually happening, sourced.</h2>
+          </div>
+          <p class="desk-note">Every dispatch links back to its original source — this desk summarizes, it doesn't replace.</p>
+        </div>
+        <div class="dispatch-grid">
+          <article class="dispatch">
+            <p class="dispatch__eyebrow"><span>AUG 2026</span></p>
+            <h3>"SaWaDiKa" single and Press Play EP confirmed</h3>
+            <p>A "Hello Sawadika" global campaign — the word "hello" in eleven languages plastered across Bangkok billboards — preceded the reveal: lead single "SaWaDiKa" arrives September 3, followed by the full <em>Press Play</em> EP on October 23, described as "LISA at her most personal... honoring her roots in Thailand."</p>
+            <p class="dispatch__credit">Summarized from Billboard Philippines by Blackpink Wire staff.</p>
+            <a class="dispatch__link" href="https://billboardphilippines.com/music/news/lisa-announces-new-ep-press-play/" target="_blank" rel="noopener">Read the original source ↗</a>
+          </article>
+          <article class="dispatch">
+            <p class="dispatch__eyebrow"><span>MAR 30</span></p>
+            <h3>"VIVA LA LISA" residency announced for Caesars Palace</h3>
+            <p>Her first Las Vegas concert residency lands at The Colosseum at Caesars Palace on November 13, 14, 27, and 28, 2026 — timed to land right after the Press Play rollout.</p>
+            <p class="dispatch__credit">Summarized from FOX5 Vegas by Blackpink Wire staff.</p>
+            <a class="dispatch__link" href="https://www.fox5vegas.com/2026/03/30/lisa-announces-historic-first-las-vegas-residency-caesars-palace/" target="_blank" rel="noopener">Read the original source ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="desk-section desk-section--alt" id="reviews">
+      <div class="wrap">
+        <div class="desk-head">
+          <div>
+            <p class="section-label">Review</p>
+            <h2>Alter Ego, revisited — and what's next.</h2>
+          </div>
+          <p class="desk-note">Text only, always — no reposted photos or video frames on this desk.</p>
+        </div>
+        <div class="review">
+          <div class="review__stamp"><span class="score">4.2 / 5</span>EDITOR'S STAMP</div>
+          <div class="review__body">
+            <blockquote>"Alter Ego is a debut album with the guest list of a career victory lap — and Lisa spends all nine tracks proving she belongs at the top of the call sheet, not just on it."</blockquote>
+            <p><strong>Alter Ego (2025): Lisa's debut solo album, nine tracks deep, with almost every one built around a marquee feature.</strong> Doja Cat and Raye open it on "Born Again"; Rosalía turns up on "New Woman"; Future, Megan Thee Stallion, and Tyla all get their own tracks. "ROCKSTAR" became the era's signature hit, released through LLOUD, the label Lisa founded herself.</p>
+            <p>"SaWaDiKa," the September 3 lead single for <em>Press Play</em>, is a deliberate turn away from that maximalist, feature-stacked sound — a homecoming, timed with a documentary premiere (<em>Always Lalisa</em>, at TIFF this September) and the Las Vegas residency below.</p>
+            <ul class="tracklist">
+              <li><span class="n mono">01</span> Born Again (feat. Doja Cat & Raye)</li>
+              <li class="title-track"><span class="n mono">02</span> Rockstar</li>
+              <li><span class="n mono">03</span> Elastigirl</li>
+              <li><span class="n mono">04</span> Thunder</li>
+              <li><span class="n mono">05</span> New Woman (feat. Rosalía)</li>
+              <li><span class="n mono">06</span> FXCK UP THE WORLD (feat. Future)</li>
+              <li><span class="n mono">07</span> Rapunzel (feat. Megan Thee Stallion)</li>
+              <li><span class="n mono">08</span> Moonlit Floor</li>
+              <li><span class="n mono">09</span> When I'm With You (feat. Tyla)</li>
+            </ul>
+            <a class="dispatch__link" href="https://en.wikipedia.org/wiki/Alter_Ego_(Lisa_album)" target="_blank" rel="noopener">Read more about Alter Ego →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="desk-section" id="screening">
+      <div class="wrap">
+        <div class="desk-head">
+          <div>
+            <p class="section-label">Screening Room</p>
+            <h2>Only LLOUD's own channel.</h2>
+          </div>
+          <p class="desk-note">Every clip here is an official YouTube embed, verified against LLOUD Official — Lisa's own label. If it isn't published there, it doesn't play on this desk.</p>
+        </div>
+        <div class="screen-grid">
+          <div class="screen-card">
+            <div class="screen-card__frame">
+              <iframe src="https://www.youtube.com/embed/hbcGx4MGUMg" title="LISA - ROCKSTAR Official Music Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="screen-card__body">
+              <h3>"ROCKSTAR" — Official Music Video</h3>
+              <p>Alter Ego's signature hit, embedded directly from LLOUD Official.</p>
+            </div>
+          </div>
+          <div class="screen-card">
+            <div class="screen-card__frame">
+              <iframe src="https://www.youtube.com/embed/UxXY_hR_wzo" title="LISA - NEW WOMAN feat. Rosalía Official Music Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="screen-card__body">
+              <h3>"NEW WOMAN" feat. Rosalía — Official Music Video</h3>
+              <p>One of Alter Ego's marquee collaborations, also from LLOUD Official.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="desk-section desk-section--alt" id="signal">
+      <div class="wrap">
+        <div class="desk-head">
+          <div>
+            <p class="section-label">Signal</p>
+            <h2>Converted to your clock, automatically.</h2>
+          </div>
+          <p class="desk-note">Release times are estimated at 1pm KST — the typical drop time — until confirmed by an official announcement.</p>
+        </div>
+        <div class="signal-list" id="signalList">
+          <div class="signal-row" data-target="2026-09-03T13:00:00+09:00">
+            <div>
+              <p class="signal-row__name">"SaWaDiKa" single <span class="tag tag--sample">Estimated time</span></p>
+              <p class="signal-row__meta mono">~1:00 PM KST (estimated) · <span class="local-time">—</span></p>
+            </div>
+            <div class="signal-row__countdown mono"><span class="countdown-value">—</span><small>time left</small></div>
+          </div>
+          <div class="signal-row" data-target="2026-10-23T13:00:00+09:00">
+            <div>
+              <p class="signal-row__name">Press Play EP <span class="tag tag--sample">Estimated time</span></p>
+              <p class="signal-row__meta mono">~1:00 PM KST (estimated) · <span class="local-time">—</span></p>
+            </div>
+            <div class="signal-row__countdown mono"><span class="countdown-value">—</span><small>time left</small></div>
+          </div>
+          <div class="signal-row" data-target="2026-11-13T19:00:00-08:00">
+            <div>
+              <p class="signal-row__name">VIVA LA LISA — Caesars Palace, Night 1 <span class="tag tag--live">Confirmed date</span></p>
+              <p class="signal-row__meta mono">~7:00 PM PST (estimated) · <span class="local-time">—</span></p>
+            </div>
+            <div class="signal-row__countdown mono"><span class="countdown-value">—</span><small>time left</small></div>
+          </div>
+        </div>
+        <p class="signal-footnote">Detected timezone: <span class="mono" id="detectedTz">—</span></p>
+      </div>
+    </section>
+
+    <section class="desk-section" id="market">
+      <div class="wrap">
+        <div class="desk-head">
+          <div>
+            <p class="section-label">Market</p>
+            <h2>Buying official.</h2>
+          </div>
+          <p class="desk-note">Links go to official storefronts. On the live site, tagged links here are where affiliate revenue would come from.</p>
+        </div>
+        <div class="market-grid">
+          <div class="market-card">
+            <h3>LISA Official Store</h3>
+            <p>Alter Ego and Press Play formats, vinyl, and merch — with dedicated US, UK, and Thailand storefronts.</p>
+            <a href="https://usshop.lalisaofficial.com" target="_blank" rel="noopener">Visit store ↗ <span class="tag tag--sample" style="margin-left:.3rem;">Affiliate link (example)</span></a>
+          </div>
+          <div class="market-card">
+            <h3>More Lisa</h3>
+            <p>Group-level news, reviews, and the full BLACKPINK release calendar live on the main wire.</p>
+            <a href="index.html">Back to Blackpink Wire ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="colophon" id="about">
+    <div class="wrap colophon__grid">
+      <div>
+        <a class="wordmark" href="index.html">Blackpink Wire<small>Member Desk</small></a>
+        <p>An independent, unofficial wire for English-speaking BLINKs — built to translate, schedule, and curate, never to reproduce.</p>
+      </div>
+      <div>
+        <p>This page is an independent fan project. It is not affiliated with, endorsed by, or sponsored by YG Entertainment, LLOUD, or Lisa. All trademarks and copyrighted material belong to their respective owners. Video appears exclusively through official YouTube embeds and is never re-hosted; no third-party photography appears on this page.</p>
+        <p class="colophon__fine">PROTOTYPE BUILD — News items, the Alter Ego review, and the Signal Desk dates are compiled from public reporting as of August 2026 and linked to their original sources; this page is not yet a live, continuously-updated site. Release times marked "estimated" have not been confirmed by an official announcement. Verify dates and prices with the artist's official channel or store before buying anything.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script>
+  (function(){
+    var tzEl = document.getElementById('detectedTz');
+    var tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    if (tzEl) tzEl.textContent = tz;
+    var rows = document.querySelectorAll('.signal-row');
+    rows.forEach(function(row){
+      var target = new Date(row.getAttribute('data-target'));
+      var localEl = row.querySelector('.local-time');
+      if (localEl){ localEl.textContent = target.toLocaleString(undefined, {dateStyle:'medium', timeStyle:'short'}); }
+      var cdEl = row.querySelector('.countdown-value');
+      function tick(){
+        var now = new Date();
+        var diff = target - now;
+        if (diff <= 0){ cdEl.textContent = 'now'; return; }
+        var d = Math.floor(diff / 86400000);
+        var h = Math.floor((diff % 86400000) / 3600000);
+        var m = Math.floor((diff % 3600000) / 60000);
+        var s = Math.floor((diff % 60000) / 1000);
+        cdEl.textContent = d + 'd ' + String(h).padStart(2,'0') + 'h ' + String(m).padStart(2,'0') + 'm ' + String(s).padStart(2,'0') + 's';
+      }
+      tick();
+      setInterval(tick, 1000);
+    });
+  })();
+</script>
+</body>
+</html>
